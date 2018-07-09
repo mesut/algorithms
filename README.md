@@ -1,0 +1,11 @@
+# algorithms
+ - AngryProfessor
+ - ApplesAndOranges
+ - ArrayLeftRotation
+ - BalancedBrackets
+ - BubbleSort
+ - InsertionSort
+ - IsBinarySearchTree
+ - QuickSort
+ - SelectionSort
+ - Staircase

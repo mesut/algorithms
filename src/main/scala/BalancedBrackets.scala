@@ -24,7 +24,7 @@ object BalancedBrackets {
           val bracket = openStack.pop()
           if (
             !(
-              (bracket == '{' && b425rackets(i) == '}') ||
+              (bracket == '{' && brackets(i) == '}') ||
                 (bracket == '(' && brackets(i) == ')') ||
                 (bracket == '[' && brackets(i) == ']')
               )
