@@ -1,11 +1,11 @@
 # algorithms
- - AngryProfessor
- - ApplesAndOranges
- - ArrayLeftRotation
- - BalancedBrackets
+ - [AngryProfessor](https://www.hackerrank.com/challenges/angry-professor/problem)
+ - [ApplesAndOranges](https://www.hackerrank.com/challenges/apple-and-orange/problem)
+ - [ArrayLeftRotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem)
+ - [BalancedBrackets](https://www.hackerrank.com/challenges/balanced-brackets/problem)
  - BubbleSort
  - InsertionSort
- - IsBinarySearchTree
+ - [IsBinarySearchTree](https://www.hackerrank.com/challenges/is-binary-search-tree/problem)
  - QuickSort
  - SelectionSort
- - Staircase
+ - [Staircase](https://www.hackerrank.com/challenges/ctci-recursive-staircase/problem)
