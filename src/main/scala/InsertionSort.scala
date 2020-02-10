@@ -1,5 +1,5 @@
 
-object InsertionSort {
+object InsertionSor extends App {
   /*
       Best      : n
       Average   : n2
@@ -9,21 +9,21 @@ object InsertionSort {
       tractable
 
    */
+  val list = Array(31, 41, 59, 26, 41,58)
 
-  def main(args: Array[String]): Unit = {
-    var array = Array(5, 4, 3, 2, 1)
-    for (i <- 0 to array.length - 1) {
-      var key = array(i)
-      var j = i - 1
-      while (j >= 0 && array(j) > key) {
-        array(j + 1) = array(j)
-        j = j - 1
-      }
-      array(j + 1) = key
-
+  for (i <- 1 until list.length) {
+    val key = list(i)
+    var j = i - 1
+    while (j >= 0 && list(j) > key) {
+      list(j + 1) = list(j)
+      j = j - 1
+      println("---")
+      list.foreach(print)
     }
-    print(array.mkString("||"))
+    list(j + 1) = key
+    println("---")
+    list.foreach(print)
   }
 
-
+  list.foreach(print)
 }
